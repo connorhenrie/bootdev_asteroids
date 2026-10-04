@@ -16,9 +16,10 @@ def main():
 
     #clock module
     clock = pygame.time.Clock()
+    # delta time
     dt = 0.0
 
-    #draw player
+    #define player
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
 
     #game loop
